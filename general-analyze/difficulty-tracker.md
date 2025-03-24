@@ -9,11 +9,11 @@ For each level, rate the difficulty on a scale of 1-5 (1 being very easy, 5 bein
 
 | Level | Difficulty (1-5) | Move Count | Key Difficulty Factors | Design Observations |
 |-------|------------------|------------|------------------------|---------------------|
-| 1     | 1                | 35         | Basic introduction     | Simple board layout, generous moves |
-| 2     | 1                | 30         | Basic matching         | Teaches core mechanics |
+| 1     | 1                | 30         | Basic introduction     | Simple board layout, generous moves |
+| 2     | 1                | 27         | Basic matching         | Teaches core mechanics |
 | 3     | 1                | 27         | Simple clearing        | Introduces match patterns |
-| 4     | 2                | 27         | Box introduction       | First obstacle introduction |
-| 5     | 2                | 23         | Box + grass            | Multiple obstacle types |
+| 4     | 2                | 30         | Box introduction       | First obstacle introduction |
+| 5     | 2                | 30         | Box + grass            | Multiple obstacle types |
 | 6     | 2                | 35         | Grass (72 tiles)       | Large obstacle count, generous moves |
 | 7     | 2                | 25         | Box (17) + grass (32)  | Introduces power tool selection |
 | 8     | 3                | 27         | Box (34) + grass (25)  | Higher obstacle count |
@@ -27,7 +27,7 @@ For each level, rate the difficulty on a scale of 1-5 (1 being very easy, 5 bein
 | 16    | 2                | 35         | Grass (24) + plate (60) | Generous moves, many unused (20) |
 | 17    | 4                | 23         | Box (63) + plate (20)  | High box count, few moves |
 | 18    | 3                | 24         | Box (18) + grass (16) + plate (40) | Balanced obstacle mix |
-| 19    | 5                | 19          | Box (20) + grass (32) + plate (40) | Extremely limited moves, introduces JESTER_HAT |
+| 19    | 5                | 27          | Box (20) + grass (32) + plate (40) | Extremely hard moves when compared with environment, introduces JESTER_HAT |
 | 20    | 4                | 20         | Bonus level (COIN_RAIN) | Special level type |
 | 21    | 3                | 28         | Mail (50)              | New obstacle introduction |
 | 22    | 3                | 25         | Mail (60)              | Higher mail count |

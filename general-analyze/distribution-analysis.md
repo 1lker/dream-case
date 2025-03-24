@@ -5,26 +5,26 @@ Based on the JSON data analysis, here's a breakdown of how obstacles and power-u
 ## Royal Match
 
 ### Move Count Analysis
-- **Average moves per level:** 25.5
-- **Average unused moves:** 8.0
+- **Average moves per level:** 26.2
+- **Average unused moves:** 8.8
 - **Move count by segment:**
-  - Levels 1-10: 27.1 (Onboarding phase)
-  - Levels 11-20: 25.0 (Introducing complexity)
+  - Levels 1-10: 29.3 (Onboarding phase)
+  - Levels 11-20: 26.6 (Introducing complexity)
   - Levels 21-30: 24.8 (Challenging mid-game)
-  - Levels 31-40: 23.5 (Endgame challenge)
+  - Levels 31-40: 24.0 (Endgame challenge)
 
 ### Obstacle Distribution
-- **Box:** 480+ total instances (First appears in level 4)
-- **Grass:** 350+ total instances (First appears in level 5)
-- **Plate:** 450+ total instances (First appears in level 11)
-- **Mail:** 475+ total instances (First appears in level 21)
-- **Egg:** 275+ total instances (First appears in level 31)
+- **Box:** 678 total instances (First appears in level 1)
+- **Grass:** 596 total instances (First appears in level 4)
+- **Plate:** 630 total instances (First appears in level 11)
+- **Mail:** 605 total instances (First appears in level 21)
+- **Egg:** 307 total instances (First appears in level 31)
 
 ### Power Tool Usage
-- **TNT:** 83 total uses
-- **Propeller:** 93 total uses
-- **Rocket:** 119 total uses
-- **Light Ball:** 40 total uses
+- **TNT:** 109 total uses
+- **Propeller:** 112 total uses
+- **Rocket:** 125 total uses
+- **Light Ball:** 49 total uses
 
 ### Key Insights:
 1. Royal Match shows a clear pattern of gradually decreasing move counts as players progress
@@ -63,9 +63,15 @@ Based on the JSON data analysis, here's a breakdown of how obstacles and power-u
 ## Comparative Analysis
 
 ### Move Count Patterns
-- Toon Blast offers 22% more moves on average than Royal Match (30.7 vs 25.5)
-- Toon Blast shows a more dramatic reduction in moves after onboarding (41.2 → 24.5)
-- Royal Match has a more gradual reduction in moves throughout all segments
+- Toon Blast offers 17% more moves on average than Royal Match (30.7 vs 26.2)
+- Toon Blast shows a more dramatic reduction in moves after onboarding (41.2 → 24.5, -40.5%)
+- Royal Match has a more gradual reduction in moves throughout all segments (29.3 → 24.0, -18.1%)
+
+### Success Rate Comparison
+- Royal Match overall success rate: 33.7%
+- Toon Blast overall success rate: 30.9%
+- Both games show similar patterns of high success in early levels, dropping in mid-game, then rising again in late-game
+- Royal Match has more extreme variance between segments (lowest: 20.2%, highest: 46.1%)
 
 ### Obstacle Patterns
 - Both games introduce new obstacles every ~10 levels
@@ -74,6 +80,7 @@ Based on the JSON data analysis, here's a breakdown of how obstacles and power-u
 - Both games use their first obstacle consistently throughout (Box for Royal Match, Balloon for Toon Blast)
 
 ### Power-Up Patterns
-- Both games favor certain power-ups (Rockets in Royal Match, Disco Balls in Toon Blast)
+- Both games favor certain power-ups (Rockets and Propellers in Royal Match, Disco Balls in Toon Blast)
 - Royal Match has more power-up variety (4 types vs 3 types)
-- Toon Blast shows higher overall power-up usage
+- Royal Match total power-ups: 395 (TNT: 109, Propeller: 112, Rocket: 125, Light Ball: 49)
+- Toon Blast total power-ups: ~315 (Bomb: 70+, Rocket: 110+, Disco Ball: 135+)

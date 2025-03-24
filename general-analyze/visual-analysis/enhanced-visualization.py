@@ -183,8 +183,8 @@ plt.close()
 #########################################
 
 # Data for moves and unused moves
-rm_moves = [35, 30, 27, 27, 23, 35, 25, 27, 30, 32, 27, 30, 30, 27, 23, 35, 23, 24, 1, 20, 28, 25, 25, 26, 26, 23, 21, 27, 25, 22, 28, 22, 30, 20, 20, 25, 23, 24, 28, 20]
-rm_unused = [12, 15, 10, 7, 13, 9, 9, 7, 16, 13, 10, 12, 4, 10, 15, 20, 6, 10, 0, 0, 13, 9, 4, 3, 5, 5, 2, 4, 1, 4, 5, 7, 40, 0, 8, 3, 4, 9, 3, 0]
+rm_moves = [30, 27, 27, 30, 30, 35, 25, 27, 30, 32, 27, 30, 30, 27, 23, 35, 23, 24, 27, 20, 28, 25, 25, 26, 26, 23, 21, 27, 25, 22, 28, 22, 30, 20, 20, 25, 23, 24, 28, 20]
+rm_unused = [17, 14, 19, 13, 18, 9, 9, 7, 16, 13, 10, 12, 4, 10, 15, 20, 6, 10, 0, 1, 13, 9, 4, 3, 5, 5, 2, 4, 1, 4, 5, 7, 40, 0, 8, 3, 4, 9, 3, 0]
 
 tb_moves = [33, 40, 40, 35, 46, 40, 38, 50, 50, 40, 23, 22, 26, 20, 22, 24, 30, 34, 19, 28, 39, 21, 30, 35, 31, 21, 21, 39, 27, 24, 40, 31, 26, 18, 35, 36, 24, 18, 25, 26]
 tb_unused = [23, 23, 10, 11, 24, 16, 24, 12, 19, 15, 9, 4, 0, 1, 0, 8, 10, 7, 12, 1, 0, 0, 9, 19, 1, 6, 0, 12, 1, 4, 32, 9, 13, 6, 11, 8, 4, 9, 4, 4]
@@ -375,7 +375,7 @@ plt.close()
 # Royal Match Power Tools with effects
 rm_power_tools = {
     'Tool': ['TNT', 'Propeller', 'Rocket', 'Light Ball'],
-    'Count': [83, 93, 119, 40],
+    'Count': [109, 112, 125, 49],  # Updated values
     'Effect': ['2-tile radius blast', 'Clears random area', 'Clears row/column', 'Clears same color'],
     'Creation': ['Match 5 in L/T shape', 'Match 4 in square', 'Match 4 in line', 'Match 5 in line']
 }
@@ -477,8 +477,8 @@ plt.close()
 # Obstacle data with levels of first appearance
 rm_obstacles = {
     'Obstacle': ['Box', 'Grass', 'Plate', 'Mail', 'Egg'],
-    'Count': [480, 350, 450, 475, 275],
-    'First Level': [4, 5, 11, 21, 31],
+    'Count': [678, 596, 630, 605, 307],  # Updated values
+    'First Level': [1, 4, 11, 21, 31],
     'Description': ['Requires matches next to it', 'Multiple layers to clear', 'Blocks access to items beneath', 'Must be collected', 'Must be collected']
 }
 
@@ -686,7 +686,7 @@ retention_data = {
 
 # Monetization touchpoints
 rm_monetization = [
-    {'level': 19, 'type': 'Extreme Difficulty', 'description': 'Only 1 move available', 'y_offset': 1.0},
+    {'level': 19, 'type': 'Extreme Difficulty', 'description': 'Grid is tough', 'y_offset': 1.0},
     {'level': 23, 'type': 'Additional Moves', 'description': 'Required 5 extra moves', 'y_offset': 1.0},
     {'level': 33, 'type': 'Additional Moves', 'description': 'Required 5 extra moves', 'y_offset': 1.0},
     {'level': 39, 'type': 'Additional Moves', 'description': 'Required 5 extra moves', 'y_offset': 1.0}
@@ -824,7 +824,7 @@ insights = [
     "Royal Match has fewer but more extreme monetization points",
     "Toon Blast has more consistent monetization touchpoints",
     "Both games place monetization after retention features",
-    "Extreme difficulty spike in RM level 19 (1 move) is a key monetization opportunity"
+    "Extreme difficulty spike in RM level 19 is a key monetization opportunity"
 ]
 
 # Add an insight box in clear area

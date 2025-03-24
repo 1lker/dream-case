@@ -336,14 +336,14 @@
           "grass": 32,
           "plate": 40
         },
-        "move_count": 1,
+        "move_count": 27,
         "power_tools": {
           "tnt": 6,
           "propeller": 1,
           "rocket": 3,
           "light_ball": 3
         },
-        "unused_moves": 0,
+        "unused_moves": 1,
         "hint_usage": 4,
         "special_events": {
           "new_booster_unlocked": "JESTER_HAT"
