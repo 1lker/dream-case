@@ -38,9 +38,9 @@
 ### Game Mechanics
 - **Core Mechanic**: Tap to clear clusters of 2+ same-colored blocks (not traditional swipe match-3)
 - **Special Pieces**:
-  - Rockets created by combining larger clusters
-  - Bombs created by specific combinations
-  - Color bombs that clear all blocks of one color
+  - Rockets created by combining (5 or 6 pieces)
+  - Bombs created by combining (7 or 8 pieces)
+  - Color bombs that clear all blocks of one color created by combining (at least 9 and more pieces)
 - **Power-ups**: Various boosters like rockets, bombs, and disco balls that can be activated during gameplay
 - **Level Goals**: Typically include collecting specific colored blocks, rescuing cartoon characters, or reaching a target score
 - **Lives System**: Limited lives that regenerate over time

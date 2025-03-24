@@ -5,7 +5,7 @@ Based on the JSON data analysis, here's a breakdown of how obstacles and power-u
 ## Royal Match
 
 ### Move Count Analysis
-- **Average moves per level:** 25.1
+- **Average moves per level:** 25.5
 - **Average unused moves:** 8.0
 - **Move count by segment:**
   - Levels 1-10: 27.1 (Onboarding phase)
@@ -30,7 +30,6 @@ Based on the JSON data analysis, here's a breakdown of how obstacles and power-u
 1. Royal Match shows a clear pattern of gradually decreasing move counts as players progress
 2. New obstacles are introduced systematically at approximately 10-level intervals
 3. Rockets are the most frequently used power tool, while Light Balls are the rarest
-4. Level 19 stands out with only 1 move, representing an extreme difficulty spike
 
 ## Toon Blast
 
@@ -64,7 +63,7 @@ Based on the JSON data analysis, here's a breakdown of how obstacles and power-u
 ## Comparative Analysis
 
 ### Move Count Patterns
-- Toon Blast offers 22% more moves on average than Royal Match (30.7 vs 25.1)
+- Toon Blast offers 22% more moves on average than Royal Match (30.7 vs 25.5)
 - Toon Blast shows a more dramatic reduction in moves after onboarding (41.2 → 24.5)
 - Royal Match has a more gradual reduction in moves throughout all segments
 

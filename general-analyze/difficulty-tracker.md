@@ -27,7 +27,7 @@ For each level, rate the difficulty on a scale of 1-5 (1 being very easy, 5 bein
 | 16    | 2                | 35         | Grass (24) + plate (60) | Generous moves, many unused (20) |
 | 17    | 4                | 23         | Box (63) + plate (20)  | High box count, few moves |
 | 18    | 3                | 24         | Box (18) + grass (16) + plate (40) | Balanced obstacle mix |
-| 19    | 5                | 1          | Box (20) + grass (32) + plate (40) | Extremely limited moves, introduces JESTER_HAT |
+| 19    | 5                | 19          | Box (20) + grass (32) + plate (40) | Extremely limited moves, introduces JESTER_HAT |
 | 20    | 4                | 20         | Bonus level (COIN_RAIN) | Special level type |
 | 21    | 3                | 28         | Mail (50)              | New obstacle introduction |
 | 22    | 3                | 25         | Mail (60)              | Higher mail count |
@@ -97,12 +97,4 @@ For each level, rate the difficulty on a scale of 1-5 (1 being very easy, 5 bein
 
 
 ## Difficulty Curve Analysis
-
-After completing both tables, use this data to:
-
-1. Calculate average difficulty per 10-level segment
-2. Identify any significant difficulty spikes
-3. Note patterns in how each game introduces new challenges
-4. Compare the overall difficulty progression between the two games
-
-This will help identify how each game manages player onboarding and retention through difficulty balancing.
+I have prepared using this data a visualization of difficulty analysis. Please observe them: $path: [general-analyze/visual-analysis/game_charts]

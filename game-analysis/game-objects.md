@@ -8,7 +8,7 @@ This document provides a detailed analysis comparing two popular mobile puzzle g
 ### Level Design
 1. **Move Count**
    - Toon Blast: Average moves per level: 30.7, Range: 18 - 50
-   - Royal Match: Average moves per level: 25.1, Range: 1 - 35
+   - Royal Match: Average moves per level: 25.5, Range: 1 - 35
 
 2. **Power Tools**
    - Toon Blast: bomb, disco_ball, rocket
@@ -35,13 +35,13 @@ This document provides a detailed analysis comparing two popular mobile puzzle g
 ## Key Findings
 
 1. **Level Design Philosophy**
-   - Toon Blast offers higher average move counts (30.7 vs 25.1), suggesting more forgiving gameplay
+   - Toon Blast offers higher average move counts (30.7 vs 25.5), suggesting more forgiving gameplay
    - Royal Match has a wider variety of obstacles, creating more diverse gameplay challenges
    - Power tool distribution shows that Toon Blast emphasizes disco balls and rockets, while Royal Match has a more even distribution across tool types
 
 2. **Player Experience**
    - Toon Blast has higher average unused moves (9.5), suggesting easier early levels for player onboarding
-   - Royal Match has higher hint usage (1.2), potentially indicating more complex puzzles requiring assistance
+   - Royal Match has higher hint usage (1.6), potentially indicating more complex puzzles requiring assistance (NOTE: TOON BLAST DOES NOT HAVE HINTS)
    - Special events follow different patterns: Toon Blast uses Crown Rush to create engagement, while Royal Match uses Butler Gifts
 
 3. **Monetization Touchpoints**
@@ -67,4 +67,4 @@ This document provides a detailed analysis comparing two popular mobile puzzle g
    - Both games should continue to introduce new boosters at key difficulty spikes
 
 ## Conclusion
-While both games follow similar match-3 puzzle mechanics, they employ different strategies for player retention and monetization. Toon Blast offers less moves but more clicks and focuses on special events like Crown Rush, while Royal Match has a more diverse obstacle system and uses the Butler Gift to reward consecutive wins. Both games could benefit from adopting successful elements from each other while maintaining their unique identities.
+While both games follow similar match-3 puzzle mechanics, they employ different strategies for player retention and monetization. Toon Blast offers more moves and focuses on special events like Crown Rush, while Royal Match has a more diverse obstacle system and uses the Butler Gift to reward consecutive wins. Both games could benefit from adopting successful elements from each other while maintaining their unique identities.

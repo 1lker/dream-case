@@ -19,7 +19,7 @@ Royal Match and Toon Blast represent two distinct approaches to mobile puzzle ga
 | Basic Match-3 | Traditional swap-adjacent-tiles to match 3+ identical pieces | 1 | Remains consistent throughout |
 | Special Pieces | Rocket: clears row/column<br>Propeller: clears random area<br>TNT: 2-tile radius blast<br>Light Ball: clears same color | 1<br>1<br>1<br>1 | Emphasized differently at different levels; Rockets become most frequent (119 used) |
 | Boosters/Power-ups | Royal Hammer: clears one tile<br>Arrow: clears row<br>Cannon: clears column<br>Jester Hat: shuffles board | 7<br>14<br>17<br>19 | Strategically unlocked before difficulty spikes |
-| Move Restrictions | Limited moves per level (average: 25.1) | 1 | Gradually decreases from 27.1 (levels 1-10) to 23.5 (levels 31-40) |
+| Move Restrictions | Limited moves per level (average: 25.5) | 1 | Gradually decreases from 27.1 (levels 1-10) to 23.5 (levels 31-40) |
 | Level Goals | Clear obstacles, reach targets | 1 | Complexity increases with multiple simultaneous goals |
 | Combo Systems | Combining power-ups creates enhanced effects | ~10 | Becomes more strategic in later levels |
 | Scoring System | Score based on matches and remaining moves | 1 | Consistent throughout |
@@ -36,11 +36,11 @@ Royal Match and Toon Blast represent two distinct approaches to mobile puzzle ga
 | Scoring System | Score based on blocks cleared and remaining moves | 1 | Consistent throughout |
 
 ### Comparative Analysis
-The core difference between the two games lies in their fundamental match mechanics: Royal Match uses traditional swipe-to-match requiring 3+ pieces, while Toon Blast employs an innovative tap-to-clear system requiring only 2+ adjacent blocks. This makes Toon Blast more accessible to casual players and reduces the cognitive load for basic moves.
+The core difference between the two games lies in their fundamental match mechanics: Royal Match uses traditional swipe-to-match requiring 3+ pieces, while Toon Blast employs an different tap-to-clear system requiring only 2+ adjacent blocks. 
 
-Royal Match offers more power-up variety (4 types vs. 3) but Toon Blast has higher overall power-up usage. Royal Match emphasizes rockets for line clearing while Toon Blast favors disco balls for color clearing, reflecting their different board design philosophies.
+Royal Match offers greater power-up diversity with 4 distinct types compared to Toon Blast's 3 types. However, Toon Blast achieves higher overall power-up utilization rates due to its adjacent block matching system. While Royal Match carefully balances power-up frequency based on shape patterns and board layouts, Toon Blast's simpler matching requirements enable more frequent power-up creation. The games' power-up preferences also highlight their distinct design approaches - Example: Royal Match prioritizes rockets for strategic line-clearing opportunities, while Toon Blast emphasizes disco balls to capitalize on its color-matching mechanics.
 
-Move allocation differs significantly, with Toon Blast offering 22% more moves on average (30.7 vs. 25.1), especially during the onboarding phase. However, Toon Blast shows a more dramatic decrease in move allocation after level 10, suggesting a more aggressive difficulty ramp-up.
+Move allocation differs significantly, with Toon Blast offering 22% more moves on average (30.7 vs. 25.5), especially during the onboarding phase. However, Toon Blast shows a more dramatic decrease in move allocation after level 10, suggesting a more aggressive difficulty ramp-up.
 
 ## 2. Level Design Analysis
 
@@ -168,10 +168,6 @@ Both games excel at creating clear, intuitive interfaces, but Royal Match requir
   - Bonus Coin Rain levels at milestones (levels 20, 40)
   - Magic Cauldron unlocked at level 39
 
-- **Social Features:**
-  - Team-based life sharing
-  - Limited social interaction compared to Toon Blast
-
 - **Monetization Touchpoints:**
   - Strategic difficulty spikes (especially level 19 with 1 move)
   - Additional moves purchases needed at levels 23, 33, 39
@@ -188,19 +184,12 @@ Both games excel at creating clear, intuitive interfaces, but Royal Match requir
 - **Progression Hooks:**
   - Episode completion with new environments (level 20, 40)
   - New boosters unlocked strategically (levels 9, 12, 16, 18)
-  - Team-based events and competitions
   - Champions League for endgame content
-
-- **Social Features:**
-  - Team-based play with life requests
-  - Social competition elements
-  - Team events and rewards
 
 - **Monetization Touchpoints:**
   - Consistent challenge levels requiring additional moves (level 15)
   - Zero unused moves levels (13, 21, 27)
   - Booster packages for challenging levels
-  - Team-based competition incentives
 
 ### Comparative Analysis
 Royal Match focuses on individual progression through decoration mechanics, creating emotional investment in the castle renovation. Its monetization strategy relies on fewer but more extreme difficulty spikes that create clear purchase decisions.
@@ -224,22 +213,8 @@ Royal Match introduces all retention features later than Toon Blast, with most i
 ### Strengths of Toon Blast
 - More accessible gameplay through simpler tap-to-clear mechanics
 - Extremely generous onboarding with high early move counts (41.2 average in levels 1-10)
-- Strong social integration with team-based features
 - Earlier implementation of retention features like rating requests and consecutive win rewards
-- More consistent monetization opportunities throughout progression
 - Character-driven narrative creates emotional connection
-
-### Areas for Improvement in Royal Match
-- Limited social features compared to Toon Blast
-- Later implementation of consecutive win rewards (level 32 vs. level 24)
-- Extreme difficulty spikes may frustrate some players (particularly level 19's 1-move design)
-- Lower average move allocation (25.1 vs. 30.7) may create perception of stinginess
-
-### Areas for Improvement in Toon Blast
-- Too dramatic drop in move allocation after level 10 (41.2 → 24.5)
-- Less strategic depth in board layouts
-- Limited permanent collection/progression elements beyond level completion
-- Less variety in power-up types (3 vs. 4)
 
 ### Best Practices Identified
 - Introduction of new obstacles approximately every 10 levels creates clear progression phases
@@ -248,26 +223,3 @@ Royal Match introduces all retention features later than Toon Blast, with most i
 - Consecutive win reward systems to create habit formation and session consistency
 - Clear visual feedback for successful actions
 - Tutorial elements that introduce mechanics gradually
-
-## 8. Recommendations
-
-**For Royal Match:**
-- Implement stronger social features similar to Toon Blast's team system to increase peer pressure and reciprocity
-- Move the Butler's Gift system earlier in progression (around level 20-25) to match Toon Blast's Crown Rush timing
-- Smooth out extreme difficulty spikes (particularly level 19) while maintaining strategic challenge
-- Increase move allocation slightly to match industry standards while maintaining challenge
-- Add more incremental rewards for consistent play
-
-**For Toon Blast:**
-- Develop stronger collection mechanics to increase emotional investment beyond level completion
-- Create more strategic depth in board layouts and obstacle placement
-- Smooth the transition between onboarding (levels 1-10) and regular gameplay to avoid player shock
-- Implement a clearer premium subscription model similar to Royal Match's Royal Pass
-- Add more power-up variety to increase strategic options
-
-**For Both Games:**
-- Continue to balance difficulty curves to maintain challenge without frustration
-- Implement more personalized content based on player behavior patterns
-- Optimize the timing of retention features based on player lifecycle data
-- Create more synergy between monetization and retention mechanics
-- Develop deeper meta-game elements that provide long-term engagement beyond level completion
