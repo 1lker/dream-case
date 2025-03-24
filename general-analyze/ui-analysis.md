@@ -22,8 +22,6 @@ This analysis examines the user experience (UX) and user interface (UI) design d
 - Board (center)
 - Pre-game booster selection
 - In-game boosters row (bottom)
-- Pause button
-- Score counter
 
 ### Toon Blast Interface
 
@@ -42,7 +40,6 @@ This analysis examines the user experience (UX) and user interface (UI) design d
 - Board (center)
 - Pre-game booster selection
 - In-game boosters row (bottom)
-- Pause button
 - Score counter
 
 ## UI Design Comparison
@@ -50,7 +47,7 @@ This analysis examines the user experience (UX) and user interface (UI) design d
 | UI Element | Royal Match | Toon Blast |
 |------------|-------------|------------|
 | **Color Palette** | Rich, royal colors (purples, golds, blues) | Bright, cartoon colors (primary colors) |
-| **Typography** | Serif-inspired, decorative fonts | Rounded, playful sans-serif fonts |
+| **Typography** | Mikado BOLD, decorative fonts | Rounded, playful sans-serif fonts |
 | **Button Style** | Ornate, beveled, dimensional | Cartoon-style, exaggerated proportions |
 | **Animation Style** | Polished, physics-based animations | Exaggerated, bouncy animations |
 | **Board Design** | Multi-layered with lighting effects | Flat design with bold outlines |
@@ -92,7 +89,6 @@ This analysis examines the user experience (UX) and user interface (UI) design d
 3. **Critical UX Moments**
    - Level failure: Immediate offer for additional moves
    - Level completion: Score celebration with characters
-   - Team help: Notification and reward animations
    - Episode completion: Character celebration and new episode unlock
 
 ## Accessibility & Usability Analysis
@@ -105,23 +101,13 @@ This analysis examines the user experience (UX) and user interface (UI) design d
 - Informative tutorials for new mechanics
 - Generous hit areas for interactive elements
 
-**Potential Improvements:**
-- More colorblind-friendly palette options
-- Additional visual cues beyond color for matching
-- Customizable text size options
-
 ### Toon Blast Accessibility
 
 **Strengths:**
 - Simple tap mechanic requires less dexterity
 - Bold visual design with high contrast
 - Larger interactive elements
-- Consistent feedback for all interactions
 
-**Potential Improvements:**
-- More distinct audio cues for different actions
-- Reduced motion options for animations
-- Better notification management
 
 ## UI/UX Impact on Retention
 
@@ -140,24 +126,16 @@ This analysis examines the user experience (UX) and user interface (UI) design d
 3. **Return Triggers**
    - Lives regeneration notification
    - New task availability indicators
-   - Daily login rewards
 
 ### Toon Blast Retention Elements
 
 1. **Visual Progression**
    - Episode map progression
-   - Team competition rankings
    - Crown Rush progress indicator
 
 2. **Satisfaction Triggers**
    - Character celebration animations
-   - Team achievement notifications
    - Special item creation animations
-
-3. **Return Triggers**
-   - Lives from team members
-   - Team event participation
-   - Daily bonus collection
 
 ## Comparative UX Analysis
 
@@ -197,38 +175,20 @@ This analysis examines the user experience (UX) and user interface (UI) design d
 - Simplified interaction model
 - Reduced cognitive load for basic gameplay
 
-## UX Recommendations
 
-### For Royal Match
+### Game Engine Physics
 
-1. **Social Integration**
-   - Implement more visible team features
-   - Create shared goals and rewards
-   - Add social comparison elements
+**Royal Match:**
+- Realistic physics for gem movement
+- Particle systems for effects
+- Lighting and shadow effects
+- Smooth animations for transitions
+- Drop of items with gravity effect is realistic
+- Sliding of items in x-axis is smooth and realistic
 
-2. **Streamlining**
-   - Reduce clicks required for common actions
-   - Provide more contextual boosters
-   - Simplify decoration choices while maintaining depth
-
-3. **Feedback Systems**
-   - Add more incremental rewards
-   - Create clearer cause-effect relationships
-   - Enhance audio design for key moments
-
-### For Toon Blast
-
-1. **Progression Visualization**
-   - Add more permanent collection elements
-   - Create clearer long-term goals
-   - Implement achievement showcases
-
-2. **Personalization**
-   - Allow more customization of experience
-   - Create adaptive difficulty options
-   - Offer more player preference settings
-
-3. **Information Design**
-   - Improve tutorial depth while maintaining simplicity
-   - Create better information layering
-   - Add more strategy tips without overwhelming
+**Toon Blast:**
+- Simplified physics for block movement
+- Bouncy animations for characters
+- Simplified animations for transitions
+- Blocks fall with gravity effect but not as realistic as Royal Match
+- Sliding of blocks from x-axis is not provided

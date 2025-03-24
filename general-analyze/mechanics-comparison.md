@@ -45,8 +45,8 @@
 
 | Royal Match | Description | First Appearance |
 |-------------|-------------|------------------|
-| Box | Requires matches next to it to clear | Level 4 |
-| Grass | Multiple layers that must be cleared | Level 5 |
+| Box | Requires matches next to it to clear | Level 1 |
+| Grass | Multiple layers that must be cleared | Level 4 |
 | Plate | Must be cleared to access items beneath | Level 11 |
 | Mail | Must be collected to complete level | Level 21 |
 | Egg | Must be collected to complete level | Level 31 |
@@ -65,7 +65,6 @@
 |---------|------------|------------|
 | **Reward System** | Butler's Gift (consecutive wins) | Crown Rush (consecutive wins) |
 | **Daily Bonuses** | Bonus Levels (COIN_RAIN) | Daily Bonus rewards |
-| **Social Elements** | Team play for shared resources | Team play and life requests |
 | **Progress System** | Castle renovation | Episode progression |
 | **Rating Request** | Level 15 | Level 11 |
 
@@ -75,7 +74,6 @@
 |---------|------------|------------|
 | **Standard Lives** | 5 (8 with Royal Pass) | 5 |
 | **Regeneration** | 1 life every 30 minutes | 1 life every 30 minutes |
-| **Team Lives** | Can request from teammates | Can request 5 free lives |
 | **Special Lives** | Royal Pass holders get 3 extra | None mentioned |
 
 ## Monetization Touchpoints
@@ -87,7 +85,7 @@
 | **Premium Currency** | Coins | Coins |
 | **Premium Pass** | Royal Pass | Not explicitly mentioned |
 | **Failed Level Offers** | Additional moves offer | Additional moves offer |
-| **Difficulty Spikes** | Level 19 (1 move), Level 39 | Level 15, Level 21, Level 27 |
+| **Difficulty Spikes** | Level 19, Level 39 | Level 15, Level 21, Level 27 |
 
 ## Visual & Aesthetic Design
 

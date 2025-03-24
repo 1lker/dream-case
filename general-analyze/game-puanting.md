@@ -1,6 +1,9 @@
-TOON BLAST ASKED ME TO RATE THE GAME
-WHEN I REACHED LEVEL 11
+## Game Rating Asks
 
+### Toon Blast
 
-ROYAL MATCH ASKED ME TO RATE THE GAME
-WHEN I REACHED LEVEL 15
+*   Asked to rate the game at level 11.
+
+### Royal Match
+
+*   Asked to rate the game at level 15.
