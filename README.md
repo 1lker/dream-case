@@ -14,7 +14,6 @@ dream-case/
 │   ├── game-analysis-royal-match.json # Royal Match game data
 │   ├── game_analysis.png        # Generated analysis image
 │   ├── game_analysis_additional.png  # Additional analysis image
-│   ├── game-objects.md          # Detailed game objects documentation
 │   └── requirements.txt         # Python dependencies
 │
 ├── general-analyze/             # Visualization and advanced analysis [↓](#general-analyze-details)
@@ -60,8 +59,6 @@ dream-case/
 │   └── gameplay-guide/          # Comprehensive gameplay documentation
 │       └── gameplay-guide.md    # Detailed guide with game mechanics
 │
-├── game-objects.md              # High-level game analysis document with comparative analysis
-└── tree.md                      # Project directory structure documentation
 ```
 
 ## Game Data Collection
