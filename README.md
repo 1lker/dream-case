@@ -8,7 +8,7 @@ This project provides a comprehensive analysis system for comparing mobile puzzl
 
 ```
 dream-case/
-├── game-analysis/               # Core analysis scripts and data
+├── game-analysis/               # Core analysis scripts and data [↓](#game-analysis-details)
 │   ├── game_analysis.py         # Main analysis script
 │   ├── game-analysis-toon-blast.json  # Toon Blast game data
 │   ├── game-analysis-royal-match.json # Royal Match game data
@@ -17,20 +17,20 @@ dream-case/
 │   ├── game-objects.md          # Detailed game objects documentation
 │   └── requirements.txt         # Python dependencies
 │
-├── general-analyze/             # Visualization and advanced analysis
-│   ├── complete-analysis.md     # Executive summary and comprehensive game comparison
-│   ├── difficulty-tracker.md    # Detailed tracking of difficulty progression by level
-│   ├── distribution-analysis.md # Obstacle and power-up distribution statistics
-│   ├── final-recommendations.md # Strategic recommendations for both games
-│   ├── game-puanting.md         # Analysis of when games ask for ratings
-│   ├── game-insights.md         # Initial observations and key differences
-│   ├── mechanics-comparison.md  # Detailed side-by-side mechanics comparison
-│   ├── ui-analysis.md           # User experience and interface design analysis
-│   └── visual-analysis/         # Visual representation of game data
+├── general-analyze/             # Visualization and advanced analysis [↓](#general-analyze-details)
+│   ├── complete-analysis.md     # Executive summary and comprehensive game comparison [↓](#complete-analysis)
+│   ├── difficulty-tracker.md    # Detailed tracking of difficulty progression by level [↓](#difficulty-tracker)
+│   ├── distribution-analysis.md # Obstacle and power-up distribution statistics [↓](#distribution-analysis)
+│   ├── final-recommendations.md # Strategic recommendations for both games [↓](#final-recommendations)
+│   ├── game-puanting.md         # Analysis of when games ask for ratings [↓](#game-puanting)
+│   ├── game-insights.md         # Initial observations and key differences [↓](#game-insights)
+│   ├── mechanics-comparison.md  # Detailed side-by-side mechanics comparison [↓](#mechanics-comparison)
+│   ├── ui-analysis.md           # User experience and interface design analysis [↓](#ui-analysis)
+│   └── visual-analysis/         # Visual representation of game data [↓](#visual-analysis-details)
 │       ├── enhanced-visualization.py         # Original visualization script with hardcoded data
 │       ├── enhanced-visualization-json.py    # Updated script that loads data from JSON files
 │       ├── game_charts_viewer.html           # Web-based visualization viewer
-│       └── game_charts/                      # Generated visualization images
+│       └── game_charts/                      # Generated visualization images [↓](#generated-visualizations)
 │           ├── move_analysis.png             # Analysis of move counts
 │           ├── power_up_analysis.png         # Power-up distribution analysis
 │           ├── obstacle_distribution.png     # Obstacle variety analysis
@@ -40,7 +40,7 @@ dream-case/
 │           ├── obstacle_timing.png           # Obstacle introduction timing
 │           └── retention_monetization.png    # Retention feature analysis
 │
-├── royal-match/                 # Royal Match specific analysis
+├── royal-match/                 # Royal Match specific analysis [↓](#royal-match-details)
 │   ├── game-levels/             # 40 analyzed game levels with detailed data
 │   ├── gameplay-guide/          # Comprehensive gameplay documentation
 │   │   └── gameplay-guide.md    # Detailed guide with game mechanics
@@ -54,7 +54,7 @@ dream-case/
 │       ├── royal-egg/           # Royal egg obstacle documentation
 │       ├── and more...          # Other game obstacles
 │
-├── toon-blast/                  # Toon Blast specific analysis
+├── toon-blast/                  # Toon Blast specific analysis [↓](#toon-blast-details)
 │   ├── game-levels/             # 40 analyzed game levels with detailed data
 │   │   └── folder-creator.sh    # Script used to generate level folders
 │   └── gameplay-guide/          # Comprehensive gameplay documentation
@@ -85,40 +85,168 @@ dream-case/
 
 ## Detailed Analysis Documents
 
+<a id="general-analyze-details"></a>
+### General Analyze Directory
+
 The `general-analyze` directory contains a comprehensive set of analysis documents that explore different aspects of both games:
 
-- **complete-analysis.md**: Executive summary and methodical analysis of game mechanics, level design, difficulty progression, graphics, user interface, player engagement mechanisms, and key findings.
+<a id="complete-analysis"></a>
+#### Complete Analysis
 
-- **difficulty-tracker.md**: Detailed level-by-level tracking of difficulty ratings (1-5 scale), move counts, key difficulty factors, and design observations for both games. Includes tables for all 40 levels of each game.
+**File: complete-analysis.md**
 
-- **distribution-analysis.md**: Statistical breakdown of:
-  - Move count analysis (averages, unused moves, segment distribution)
-  - Obstacle distribution (counts and appearances)
-  - Power tool usage patterns
-  - Comparative analysis of both games' distribution patterns
+This document provides an executive summary and methodical analysis of the games, including:
 
-- **final-recommendations.md**: Comprehensive findings and strategic recommendations for both games, including:
-  - Executive summary of key differences
-  - Core game design analysis
-  - Monetization strategy comparison
-  - Player retention techniques
-  - User experience design evaluation
-  - Specific recommendations for each game
-  - Game design insights for future development
+- **Executive Summary**: High-level comparison of both games
+- **Methodology**: Approach used for analyzing all 40 levels of each game
+- **Game Mechanics Analysis**: Detailed breakdown of core mechanics with comparative tables
+- **Level Design Analysis**: Analysis of level groups, objectives, and strategic challenges
+- **Difficulty Progression**: Charts showing difficulty ratings and success rates
+- **Graphics Analysis**: Comparison of visual elements and their effectiveness
+- **User Interface Analysis**: Evaluation of UI components and accessibility
+- **Player Engagement Mechanisms**: Analysis of reward systems and monetization strategies
+- **Key Findings and Conclusions**: Strengths of each game and best practices identified
 
-- **game-puanting.md**: Analysis of when each game asks for ratings (Royal Match at level 15, Toon Blast at level 11), providing insights into early retention strategies.
+<a id="difficulty-tracker"></a>
+#### Difficulty Tracker
 
-- **game-insights.md**: Initial observations about game mechanics, level design patterns, graphics, visual style, and user interface for both games, with a section highlighting key differences.
+**File: difficulty-tracker.md**
 
-- **mechanics-comparison.md**: Detailed side-by-side comparison tables of core gameplay, power-ups, boosters, obstacles, retention features, lives systems, monetization touchpoints, and visual design.
+This document tracks difficulty progression level-by-level for both games, including:
 
-- **ui-analysis.md**: In-depth analysis of user experience and interface design, including:
-  - Game interface anatomy
-  - UI design comparison
-  - UX patterns and flows
-  - Accessibility and usability analysis
-  - UI/UX impact on retention
-  - Comparative analysis of information architecture, visual hierarchy, and interaction design
+- **Difficulty Rating Scale**: 1-5 scale for each level (1 being very easy, 5 being very challenging)
+- **Complete Level Tables**: Tables for all 40 levels of each game showing:
+  - Difficulty ratings
+  - Move counts
+  - Key difficulty factors
+  - Design observations
+- **Difficulty Curve Analysis**: Visualization references for difficulty progression
+
+<a id="distribution-analysis"></a>
+#### Distribution Analysis
+
+**File: distribution-analysis.md**
+
+Statistical breakdown of game elements and their distribution:
+
+- **Move Count Analysis**: Averages, unused moves, and segment distribution
+- **Obstacle Distribution**: Counts and level appearances for all obstacle types
+- **Power Tool Usage**: Statistics on frequency and preferences
+- **Comparative Analysis**: Side-by-side comparison of distribution patterns between games
+
+<a id="final-recommendations"></a>
+#### Final Recommendations
+
+**File: final-recommendations.md**
+
+Comprehensive findings and strategic recommendations for both games:
+
+- **Executive Summary**: Key differences between the games
+- **Core Game Design Analysis**: Mechanical differences, difficulty progression, power-up systems
+- **Monetization Strategies**: Revenue streams, strategic difficulty, reward systems
+- **Player Retention Techniques**: Short-term, mid-term, and long-term retention approaches
+- **User Experience Design**: Visual style, interface design, accessibility
+- **Strategic Recommendations**: Specific improvements for each game
+- **Game Design Insights**: Best practices for future game development
+
+<a id="game-puanting"></a>
+#### Game Rating Analysis
+
+**File: game-puanting.md**
+
+Analysis of when each game asks for ratings:
+- Royal Match requests ratings at level 15
+- Toon Blast requests ratings at level 11
+- Insights into early retention strategies
+
+<a id="game-insights"></a>
+#### Game Insights
+
+**File: game-insights.md**
+
+Initial observations about both games:
+
+- **Game Mechanics**: Core gameplay, special pieces, power-ups, level goals
+- **Level Design Patterns**: Progression and teaching approaches
+- **Graphics & Visual Style**: Art direction and visual feedback
+- **User Interface**: Layout and tutorial elements
+- **Key Differences**: Highlights of major differences between the games
+
+<a id="mechanics-comparison"></a>
+#### Mechanics Comparison
+
+**File: mechanics-comparison.md**
+
+Detailed side-by-side comparison tables of game features:
+
+- **Core Gameplay**: Basic mechanics and board interaction
+- **Power-ups/Special Items**: Creation methods and effects
+- **Boosters**: Types and acquisition methods
+- **Obstacles**: Description and first appearance levels
+- **Retention Features**: Reward systems and progress tracking
+- **Lives System**: Standard lives and regeneration rates
+- **Monetization Touchpoints**: Additional moves, boosters, premium options
+- **Visual & Aesthetic Design**: Art style and animation focus
+
+<a id="ui-analysis"></a>
+#### UI Analysis
+
+**File: ui-analysis.md**
+
+In-depth analysis of user experience and interface design:
+
+- **Game Interface Anatomy**: Breakdown of screen elements
+- **UI Design Comparison**: Color palette, typography, animation style
+- **UX Patterns and Flows**: Core gameplay loops and onboarding processes
+- **Accessibility and Usability**: Strengths and areas for improvement
+- **UI/UX Impact on Retention**: Visual progression and satisfaction triggers
+- **Comparative Analysis**: Information architecture, visual hierarchy, interaction design
+
+<a id="visual-analysis-details"></a>
+### Visual Analysis System
+
+<a id="generated-visualizations"></a>
+#### Generated Visualizations
+
+The system produces the following visualizations, saved in the `game_charts/` directory:
+
+1. **move_analysis.png**: Analysis of move counts and difficulty levels across game segments, showing how each game paces player challenge.
+2. **power_up_analysis.png**: Breakdown of power-ups in each game, their effects, and frequency, revealing different approaches to player empowerment.
+3. **obstacle_distribution.png**: Analysis of obstacle variety and frequency, demonstrating complexity differences between games.
+4. **difficulty_progression.png**: Difficulty curve mapping across all levels, highlighting different pacing strategies.
+5. **master_dashboard.png**: Consolidated view of all key metrics for quick comparison between games.
+6. **monetization_difficulty_correlation.png**: Relationship between difficulty spikes and monetization opportunities, revealing monetization strategies.
+7. **obstacle_timing.png**: Timeline of obstacle introduction throughout the games, showing progression complexity.
+8. **retention_monetization.png**: Timing and strategy of retention features, comparing engagement approaches.
+
+<a id="game-analysis-details"></a>
+### Game Analysis Directory
+
+The `game-analysis` directory contains the core analysis scripts and data files:
+
+- **game_analysis.py**: The main Python script that processes JSON game data and generates analysis reports
+- **JSON Data Files**: Structured data for both games with level-by-level information
+- **Generated Images**: Analysis visualizations produced by the script
+- **Documentation**: Detailed explanation of game objects and their properties
+
+<a id="royal-match-details"></a>
+### Royal Match Analysis
+
+The `royal-match` directory contains Royal Match specific analysis:
+
+- **Game Levels**: 40 analyzed levels with detailed data on move counts, obstacles, and difficulty
+- **Gameplay Guide**: Comprehensive documentation of game mechanics
+- **Tasks & Areas System**: Documentation on progression and reward systems
+- **Objects Analysis**: Detailed breakdown of obstacle types and their behavior
+
+<a id="toon-blast-details"></a>
+### Toon Blast Analysis
+
+The `toon-blast` directory contains Toon Blast specific analysis:
+
+- **Game Levels**: 40 analyzed levels with detailed data on move counts, obstacles, and difficulty  
+- **Gameplay Guide**: Comprehensive documentation of game mechanics including the tap-to-clear system
+- **Level Generation**: Script used to create the level analysis structure
 
 ## Game Data Collection
 
