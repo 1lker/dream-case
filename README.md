@@ -64,73 +64,13 @@ dream-case/
 └── tree.md                      # Project directory structure documentation
 ```
 
-## Key Documentation Files
-
-- **game-objects.md**: Contains a comprehensive comparative analysis of both games, including game mechanics, progression systems, player psychology insights, key findings, and detailed recommendations.
-- **game-analysis/game-objects.md**: Specific documentation about the game objects found in the analysis.
-- **royal-match/gameplay-guide/gameplay-guide.md**: Detailed guide explaining Royal Match mechanics.
-- **toon-blast/gameplay-guide/gameplay-guide.md**: Detailed guide explaining Toon Blast mechanics.
-- **royal-match/tasks&areas/tasks-&-areas.md**: Documentation on Royal Match's progression system.
-
-## Directory References
-
-<a id="general-analyze-details"></a>
-### General Analyze Directory
-
-<a id="complete-analysis"></a>
-#### Complete Analysis
-**File: complete-analysis.md**
-
-<a id="difficulty-tracker"></a>
-#### Difficulty Tracker
-**File: difficulty-tracker.md**
-
-<a id="distribution-analysis"></a>
-#### Distribution Analysis
-**File: distribution-analysis.md**
-
-<a id="final-recommendations"></a>
-#### Final Recommendations
-**File: final-recommendations.md**
-
-<a id="game-puanting"></a>
-#### Game Rating Analysis
-**File: game-puanting.md**
-
-<a id="game-insights"></a>
-#### Game Insights
-**File: game-insights.md**
-
-<a id="mechanics-comparison"></a>
-#### Mechanics Comparison
-**File: mechanics-comparison.md**
-
-<a id="ui-analysis"></a>
-#### UI Analysis
-**File: ui-analysis.md**
-
-<a id="visual-analysis-details"></a>
-### Visual Analysis System
-
-<a id="generated-visualizations"></a>
-#### Generated Visualizations
-
-<a id="game-analysis-details"></a>
-### Game Analysis Directory
-
-<a id="royal-match-details"></a>
-### Royal Match Analysis
-
-<a id="toon-blast-details"></a>
-### Toon Blast Analysis
-
 ## Game Data Collection
 
-Both games have been extensively analyzed across 35-40 levels each:
+Both games have been extensively analyzed across 40 levels each:
 
 - **Royal Match**: Data from 40 levels analyzing move counts, power tools, obstacles, difficulty progression, monetization touchpoints, and special features.
 
-- **Toon Blast**: Data from 35 levels analyzing move counts, special items, obstacles, difficulty curves, monetization strategies, and special features.
+- **Toon Blast**: Data from 40 levels analyzing move counts, special items, obstacles, difficulty curves, monetization strategies, and special features.
 
 ## Visualization System
 
