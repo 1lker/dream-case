@@ -1,0 +1,683 @@
+{
+  "game_analysis": {
+    "structure": {
+      "level": "number",
+      "obstacles": {
+        "balloon": "number",
+        "crate": "number",
+        "bubble": "number",
+        "carrot": "number",
+        "colored-balloon": "number"
+      },
+      "move_count": "number",
+      "power_tools": {
+        "bomb": "number",
+        "rocket": "number",
+        "disco_ball": "number"
+      },
+      "unused_moves": "number",
+      "additional_moves_bought": "number",
+      "hint_usage": "number",
+      "special_events": {
+        "crown_rush": "boolean",
+        "rescue_mission": "boolean",
+        "new_booster_unlocked": "string",
+        "new_episode_unlocked": "boolean"
+      }
+    },
+    "levels": [
+      {
+        "level": 1,
+        "obstacles": {
+          "balloon": 60
+        },
+        "move_count": 33,
+        "power_tools": {
+          "bomb": 0,
+          "rocket": 4,
+          "disco_ball": 7
+        },
+        "unused_moves": 23,
+        "hint_usage": 0
+      },
+      {
+        "level": 2,
+        "obstacles": {
+          "balloon": 72
+        },
+        "move_count": 40,
+        "power_tools": {
+          "bomb": 3,
+          "rocket": 1,
+          "disco_ball": 2
+        },
+        "unused_moves": 23,
+        "hint_usage": 0
+      },
+      {
+        "level": 3,
+        "obstacles": {
+          "balloon": 120
+        },
+        "move_count": 40,
+        "power_tools": {
+          "bomb": 2,
+          "rocket": 5,
+          "disco_ball": 2
+        },
+        "unused_moves": 10
+      },
+      {
+        "level": 4,
+        "obstacles": {
+          "crate": 49
+        },
+        "move_count": 35,
+        "power_tools": {
+          "bomb": 3,
+          "rocket": 2,
+          "disco_ball": 2
+        },
+        "unused_moves": 11
+      },
+      {
+        "level": 5,
+        "obstacles": {
+          "crate": 54
+        },
+        "move_count": 46,
+        "power_tools": {
+          "bomb": 2,
+          "rocket": 2,
+          "disco_ball": 3
+        },
+        "unused_moves": 24,
+        "special_events": {
+          "new_booster_unlocked": "BOOSTERS"
+        }
+      },
+      {
+        "level": 6,
+        "obstacles": {
+          "balloon": null
+        },
+        "move_count": 40,
+        "power_tools": {
+          "bomb": null,
+          "rocket": 4,
+          "disco_ball": 2
+        },
+        "unused_moves": 16
+      },
+      {
+        "level": 7,
+        "obstacles": {
+          "balloon": 36,
+          "crate": 36
+        },
+        "move_count": 38,
+        "power_tools": {
+          "bomb": null,
+          "rocket": 3,
+          "disco_ball": 3
+        },
+        "unused_moves": 24
+      },
+      {
+        "level": 8,
+        "obstacles": {
+          "balloon": 36,
+          "crate": 36
+        },
+        "move_count": 50,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 2,
+          "disco_ball": 4
+        },
+        "unused_moves": 12
+      },
+      {
+        "level": 9,
+        "obstacles": {
+          "crate": 27
+        },
+        "move_count": 50,
+        "power_tools": {
+          "bomb": 4,
+          "rocket": null,
+          "disco_ball": 4
+        },
+        "unused_moves": 19,
+        "special_events": {
+          "new_booster_unlocked": "HAMMER"
+        }
+      },
+      {
+        "level": 10,
+        "obstacles": {
+          "balloon": 40,
+          "crate": 24
+        },
+        "move_count": 40,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": null,
+          "disco_ball": 6
+        },
+        "unused_moves": 15
+      },
+      {
+        "level": 11,
+        "obstacles": {
+          "bubble": 25
+        },
+        "move_count": 23,
+        "power_tools": {
+          "bomb": 2,
+          "rocket": null,
+          "disco_ball": 2
+        },
+        "unused_moves": 9
+      },
+      {
+        "level": 12,
+        "obstacles": {
+          "crate": 42,
+          "bubble": 20
+        },
+        "move_count": 22,
+        "power_tools": {
+          "bomb": 2,
+          "rocket": null,
+          "disco_ball": 4
+        },
+        "unused_moves": 4,
+        "special_events": {
+          "new_booster_unlocked": "BOXING GLOVE"
+        }
+      },
+      {
+        "level": 13,
+        "obstacles": {
+          "balloon": 41,
+          "crate": 9,
+          "bubble": 41
+        },
+        "move_count": 26,
+        "power_tools": {
+          "bomb": 2,
+          "rocket": null,
+          "disco_ball": null
+        },
+        "unused_moves": 0
+      },
+      {
+        "level": 14,
+        "obstacles": {
+          "balloon": 38,
+          "crate": 26,
+          "bubble": 26
+        },
+        "move_count": 20,
+        "power_tools": {
+          "bomb": 0,
+          "rocket": 2,
+          "disco_ball": 5
+        },
+        "unused_moves": 1
+      },
+      {
+        "level": 15,
+        "obstacles": {
+          "balloon": 66,
+          "crate": 27,
+          "bubble": 54
+        },
+        "move_count": 22,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 3,
+          "disco_ball": 5
+        },
+        "unused_moves": 0,
+        "additional_moves_bought": 5
+      },
+      {
+        "level": 16,
+        "obstacles": {
+          "crate": 56
+        },
+        "move_count": 24,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 4,
+          "disco_ball": 2
+        },
+        "unused_moves": 8,
+        "special_events": {
+          "new_booster_unlocked": "ANVIL"
+        }
+      },
+      {
+        "level": 17,
+        "obstacles": {
+          "balloon": 115
+        },
+        "move_count": 30,
+        "power_tools": {
+          "bomb": null,
+          "rocket": 1,
+          "disco_ball": 4
+        },
+        "unused_moves": 10
+      },
+      {
+        "level": 18,
+        "obstacles": {
+          "balloon": 64,
+          "bubble": 64
+        },
+        "move_count": 34,
+        "power_tools": {
+          "bomb": 3,
+          "rocket": 2,
+          "disco_ball": 4
+        },
+        "unused_moves": 7,
+        "special_events": {
+          "new_booster_unlocked": "DICE"
+        }
+      },
+      {
+        "level": 19,
+        "obstacles": {
+          "balloon": 45,
+          "bubble": 45
+        },
+        "move_count": 19,
+        "power_tools": {
+          "bomb": null,
+          "rocket": 2,
+          "disco_ball": 2
+        },
+        "unused_moves": 12
+      },
+      {
+        "level": 20,
+        "obstacles": {
+          "balloon": 500
+        },
+        "move_count": 28,
+        "power_tools": {
+          "bomb": null,
+          "rocket": 1,
+          "disco_ball": 10
+        },
+        "unused_moves": 1,
+        "special_events": {
+          "new_episode_unlocked": true
+        }
+      },
+      {
+        "level": 21,
+        "obstacles": {
+          "carrot": 85
+        },
+        "move_count": 39,
+        "power_tools": {
+          "bomb": 3,
+          "rocket": 4,
+          "disco_ball": 2
+        },
+        "unused_moves": 0
+      },
+      {
+        "level": 22,
+        "obstacles": {
+          "balloon": 48,
+          "carrot": 30
+        },
+        "move_count": 21,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 3,
+          "disco_ball": 2
+        },
+        "unused_moves": null
+      },
+      {
+        "level": 23,
+        "obstacles": {
+          "crate": 37,
+          "carrot": 45
+        },
+        "move_count": 30,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 7,
+          "disco_ball": 3
+        },
+        "unused_moves": 9
+      },
+      {
+        "level": 24,
+        "obstacles": {
+          "carrot": 150
+        },
+        "move_count": 35,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 3,
+          "disco_ball": 5
+        },
+        "unused_moves": 19,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "0/3"
+        }
+      },
+      {
+        "level": 25,
+        "obstacles": {
+          "carrot": 200
+        },
+        "move_count": 31,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 2,
+          "disco_ball": 0
+        },
+        "unused_moves": 1,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "1/3",
+          "power_ups_given": 2
+        }
+      },
+      {
+        "level": 26,
+        "obstacles": {
+          "balloon": 350
+        },
+        "move_count": 21,
+        "power_tools": {
+          "bomb": 2,
+          "rocket": 8,
+          "disco_ball": 11
+        },
+        "unused_moves": 6,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "2/3",
+          "power_ups_given": 4
+        }
+      },
+      {
+        "level": 27,
+        "obstacles": {
+          "balloon": 24,
+          "crate": 25
+        },
+        "move_count": 21,
+        "power_tools": {
+          "bomb": 0,
+          "rocket": 7,
+          "disco_ball": 5
+        },
+        "unused_moves": 0,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 28,
+        "obstacles": {
+          "balloon": 25,
+          "crate": 24
+        },
+        "move_count": 39,
+        "power_tools": {
+          "bomb": 6,
+          "rocket": 3,
+          "disco_ball": 1
+        },
+        "unused_moves": 12,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 29,
+        "obstacles": {
+          "bubble": 24,
+          "carrot": 27,
+          "crate": 23
+        },
+        "move_count": 27,
+        "power_tools": {
+          "bomb": 6,
+          "rocket": 3,
+          "disco_ball": 2
+        },
+        "unused_moves": 1,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 30,
+        "obstacles": {
+          "balloon": 40,
+          "carrot": 200
+        },
+        "move_count": 24,
+        "power_tools": {
+          "bomb": 8,
+          "rocket": 7,
+          "disco_ball": 2
+        },
+        "unused_moves": 4,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 31,
+        "obstacles": {
+          "colored-balloon": 45
+        },
+        "move_count": 40,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 3,
+          "disco_ball": 4
+        },
+        "unused_moves": 32,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 32,
+        "obstacles": {
+          "colored-balloon": 120
+        },
+        "move_count": 31,
+        "power_tools": {
+          "bomb": 2,
+          "rocket": 2,
+          "disco_ball": 11
+        },
+        "unused_moves": 9,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 33,
+        "obstacles": {
+          "colored-balloon": 36,
+          "carrot": 40
+        },
+        "move_count": 26,
+        "power_tools": {
+          "bomb": 2,
+          "rocket": 2,
+          "disco_ball": 3
+        },
+        "unused_moves": 13,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 34,
+        "obstacles": {
+          "colored-balloon": 63,
+          "crate": 26
+        },
+        "move_count": 18,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 0,
+          "disco_ball": 6
+        },
+        "unused_moves": 6,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 35,
+        "obstacles": {
+          "colored-balloon": 200
+        },
+        "move_count": 35,
+        "power_tools": {
+          "bomb": 1,
+          "rocket": 3,
+          "disco_ball": 6
+        },
+        "unused_moves": 11,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 36,
+        "obstacles": {
+          "balloon": 23,
+          "crate": 22,
+          "carrot": 40
+        },
+        "move_count": 36,
+        "power_tools": {
+          "bomb": 7,
+          "rocket": 4,
+          "disco_ball": 3
+        },
+        "unused_moves": 8,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 37,
+        "obstacles": {
+          "balloon": 54,
+          "carrot": 60
+        },
+        "move_count": 24,
+        "power_tools": {
+          "bomb": 4,
+          "rocket": 4,
+          "disco_ball": 0
+        },
+        "unused_moves": 4,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 38,
+        "obstacles": {
+          "balloon": 42,
+          "bubble": 77
+        },
+        "move_count": 18,
+        "power_tools": {
+          "bomb": 3,
+          "rocket": 4,
+          "disco_ball": 2
+        },
+        "unused_moves": 9,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 39,
+        "obstacles": {
+          "crate": 33,
+          "carrot": 64
+        },
+        "move_count": 25,
+        "power_tools": {
+          "bomb": 3,
+          "rocket": 2,
+          "disco_ball": 7
+        },
+        "unused_moves": 4,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6
+        }
+      },
+      {
+        "level": 40,
+        "obstacles": {
+          "colored-balloon": 100
+        },
+        "move_count": 26,
+        "power_tools": {
+          "bomb": 3,
+          "rocket": 4,
+          "disco_ball": 4
+        },
+        "unused_moves": 4,
+        "special_events": {
+          "crown_rush": true,
+          "crown_rush_progress": "3/3",
+          "power_ups_given": 6,
+          "new_episode_unlocked": true
+        }
+      }
+    ]
+  }
+}

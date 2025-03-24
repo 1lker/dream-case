@@ -1,0 +1,699 @@
+{
+  "game_analysis": {
+    "structure": {
+      "level": "number",
+      "obstacles": {
+        "box": "number",
+        "grass": "number",
+        "plate": "number",
+        "mail": "number",
+        "egg": "number"
+      },
+      "move_count": "number",
+      "power_tools": {
+        "tnt": "number",
+        "propeller": "number",
+        "rocket": "number",
+        "light_ball": "number"
+      },
+      "unused_moves": "number",
+      "additional_moves_bought": "number",
+      "hint_usage": "number",
+      "special_events": {
+        "new_booster_unlocked": "string",
+        "butler_gift": {
+          "active": "boolean",
+          "progress": "string",
+          "power_ups_given": "number"
+        },
+        "bonus_level": "string",
+        "magic_cauldron_unlocked": "boolean"
+      }
+    },
+    "levels": [
+      {
+        "level": 6,
+        "obstacles": {
+          "grass": 72
+        },
+        "move_count": 35,
+        "unused_moves": 9,
+        "hint_usage": 7,
+        "special_events": {
+          "grass_layer": "double in some places"
+        }
+      },
+      {
+        "level": 7,
+        "obstacles": {
+          "box": 17,
+          "grass": 32
+        },
+        "move_count": 25,
+        "power_tools": {
+          "propeller": 2,
+          "rocket": 1,
+          "tnt": 3,
+          "light_ball": 2
+        },
+        "unused_moves": 9,
+        "hint_usage": 3,
+        "special_events": {
+          "new_booster_unlocked": "SELECT_BOOSTERS"
+        }
+      },
+      {
+        "level": 8,
+        "obstacles": {
+          "box": 34,
+          "grass": 25
+        },
+        "move_count": 27,
+        "power_tools": {
+          "tnt": 2,
+          "propeller": 9,
+          "rocket": 4,
+          "light_ball": 0
+        },
+        "unused_moves": 7,
+        "hint_usage": 1,
+        "special_events": {
+          "new_booster_unlocked": "ROYAL_HAMMER"
+        }
+      },
+      {
+        "level": 9,
+        "obstacles": {
+          "box": 40
+        },
+        "move_count": 30,
+        "power_tools": {
+          "tnt": 3,
+          "propeller": 3,
+          "rocket": 4,
+          "light_ball": 1
+        },
+        "unused_moves": 16,
+        "hint_usage": 4
+      },
+      {
+        "level": 10,
+        "obstacles": {
+          "box": 27,
+          "grass": 27
+        },
+        "move_count": 32,
+        "power_tools": {
+          "tnt": 1,
+          "propeller": 0,
+          "rocket": 5,
+          "light_ball": 1
+        },
+        "unused_moves": 13,
+        "hint_usage": 1
+      },
+      {
+        "level": 11,
+        "obstacles": {
+          "plate": 40
+        },
+        "move_count": 27,
+        "power_tools": {
+          "tnt": 0,
+          "propeller": 1,
+          "rocket": 2,
+          "light_ball": 0
+        },
+        "unused_moves": 10,
+        "hint_usage": 3
+      },
+      {
+        "level": 12,
+        "obstacles": {
+          "box": 32,
+          "plate": 40
+        },
+        "move_count": 30,
+        "power_tools": {
+          "tnt": 3,
+          "propeller": 2,
+          "rocket": 4,
+          "light_ball": 1
+        },
+        "unused_moves": 12,
+        "hint_usage": 2
+      },
+      {
+        "level": 13,
+        "obstacles": {
+          "box": 40,
+          "grass": 12,
+          "plate": 30
+        },
+        "move_count": 30,
+        "power_tools": {
+          "tnt": 3,
+          "propeller": 3,
+          "rocket": 1,
+          "light_ball": 0
+        },
+        "unused_moves": 4,
+        "hint_usage": 0
+      },
+      {
+        "level": 14,
+        "obstacles": {
+          "box": 8,
+          "grass": 24,
+          "plate": 60
+        },
+        "move_count": 27,
+        "power_tools": {
+          "tnt": 3,
+          "propeller": 2,
+          "rocket": 3,
+          "light_ball": 1
+        },
+        "unused_moves": 10,
+        "hint_usage": 2,
+        "special_events": {
+          "new_booster_unlocked": "ARROW"
+        }
+      },
+      {
+        "level": 15,
+        "obstacles": {
+          "box": 36,
+          "grass": 36
+        },
+        "move_count": 23,
+        "power_tools": {
+          "tnt": 1,
+          "propeller": 0,
+          "rocket": 3,
+          "light_ball": 2
+        },
+        "unused_moves": 15,
+        "hint_usage": 0
+      },
+      {
+        "level": 16,
+        "obstacles": {
+          "grass": 24,
+          "plate": 60
+        },
+        "move_count": 35,
+        "power_tools": {
+          "tnt": 4,
+          "propeller": 3,
+          "rocket": 2,
+          "light_ball": 1
+        },
+        "unused_moves": 20,
+        "hint_usage": 0
+      },
+      {
+        "level": 17,
+        "obstacles": {
+          "box": 63,
+          "plate": 20
+        },
+        "move_count": 23,
+        "power_tools": {
+          "tnt": 2,
+          "propeller": 1,
+          "rocket": 3,
+          "light_ball": 0
+        },
+        "unused_moves": 6,
+        "hint_usage": 2,
+        "special_events": {
+          "new_booster_unlocked": "CANNON"
+        }
+      },
+      {
+        "level": 18,
+        "obstacles": {
+          "box": 18,
+          "grass": 16,
+          "plate": 40
+        },
+        "move_count": 24,
+        "power_tools": {
+          "tnt": 5,
+          "propeller": 3,
+          "rocket": 1,
+          "light_ball": 2
+        },
+        "unused_moves": 10,
+        "hint_usage": 1
+      },
+      {
+        "level": 19,
+        "obstacles": {
+          "box": 20,
+          "grass": 32,
+          "plate": 40
+        },
+        "move_count": 1,
+        "power_tools": {
+          "tnt": 6,
+          "propeller": 1,
+          "rocket": 3,
+          "light_ball": 3
+        },
+        "unused_moves": 0,
+        "hint_usage": 4,
+        "special_events": {
+          "new_booster_unlocked": "JESTER_HAT"
+        }
+      },
+      {
+        "level": 20,
+        "move_count": 20,
+        "power_tools": {
+          "tnt": 6,
+          "propeller": 2,
+          "rocket": 7,
+          "light_ball": 1
+        },
+        "unused_moves": 0,
+        "hint_usage": 3,
+        "special_events": {
+          "bonus_level": "COIN_RAIN"
+        }
+      },
+      {
+        "level": 21,
+        "obstacles": {
+          "mail": 50
+        },
+        "move_count": 28,
+        "power_tools": {
+          "tnt": 0,
+          "propeller": 1,
+          "rocket": 4,
+          "light_ball": 2
+        },
+        "unused_moves": 13,
+        "hint_usage": 0
+      },
+      {
+        "level": 22,
+        "obstacles": {
+          "mail": 60
+        },
+        "move_count": 25,
+        "power_tools": {
+          "tnt": 3,
+          "propeller": 3,
+          "rocket": 1,
+          "light_ball": 1
+        },
+        "unused_moves": 9,
+        "hint_usage": 2
+      },
+      {
+        "level": 23,
+        "obstacles": {
+          "box": 25,
+          "mail": 45
+        },
+        "move_count": 25,
+        "power_tools": {
+          "tnt": 2,
+          "propeller": 2,
+          "rocket": 3,
+          "light_ball": 1
+        },
+        "unused_moves": 4,
+        "hint_usage": 2,
+        "additional_moves_bought": 5,
+        "special_events": {
+          "additional_moves_cost": 900
+        }
+      },
+      {
+        "level": 24,
+        "obstacles": {
+          "grass": 32,
+          "mail": 40
+        },
+        "move_count": 26,
+        "power_tools": {
+          "tnt": 4,
+          "propeller": 6,
+          "rocket": 1,
+          "light_ball": 0
+        },
+        "unused_moves": 3,
+        "hint_usage": 1
+      },
+      {
+        "level": 25,
+        "obstacles": {
+          "box": 36,
+          "plate": 30,
+          "mail": 30
+        },
+        "move_count": 26,
+        "power_tools": {
+          "tnt": 4,
+          "propeller": 2,
+          "rocket": 2,
+          "light_ball": 2
+        },
+        "unused_moves": 5,
+        "hint_usage": 0
+      },
+      {
+        "level": 26,
+        "obstacles": {
+          "box": 15,
+          "grass": 36
+        },
+        "move_count": 23,
+        "power_tools": {
+          "tnt": 3,
+          "propeller": 2,
+          "rocket": 3,
+          "light_ball": 0
+        },
+        "unused_moves": 5,
+        "hint_usage": 2
+      },
+      {
+        "level": 27,
+        "obstacles": {
+          "box": 16,
+          "grass": 16,
+          "plate": 40
+        },
+        "move_count": 21,
+        "power_tools": {
+          "tnt": 2,
+          "propeller": 5,
+          "rocket": 2,
+          "light_ball": 0
+        },
+        "unused_moves": 2,
+        "hint_usage": 1
+      },
+      {
+        "level": 28,
+        "obstacles": {
+          "box": 30,
+          "plate": 120
+        },
+        "move_count": 27,
+        "power_tools": {
+          "tnt": 2,
+          "propeller": 1,
+          "rocket": 6,
+          "light_ball": 3
+        },
+        "unused_moves": 4,
+        "hint_usage": 1
+      },
+      {
+        "level": 29,
+        "obstacles": {
+          "box": 27,
+          "grass": 18,
+          "mail": 50
+        },
+        "move_count": 25,
+        "power_tools": {
+          "tnt": 2,
+          "propeller": 4,
+          "rocket": 2,
+          "light_ball": 2
+        },
+        "unused_moves": 1,
+        "hint_usage": 0
+      },
+      {
+        "level": 30,
+        "obstacles": {
+          "mail": 200
+        },
+        "move_count": 22,
+        "power_tools": {
+          "tnt": 7,
+          "propeller": 2,
+          "rocket": 5,
+          "light_ball": 1
+        },
+        "unused_moves": 4,
+        "hint_usage": 0
+      },
+      {
+        "level": 31,
+        "obstacles": {
+          "egg": 60
+        },
+        "move_count": 28,
+        "power_tools": {
+          "tnt": 2,
+          "propeller": 2,
+          "rocket": 7,
+          "light_ball": 1
+        },
+        "unused_moves": 5,
+        "hint_usage": 0
+      },
+      {
+        "level": 32,
+        "obstacles": {
+          "box": 18,
+          "egg": 36
+        },
+        "move_count": 22,
+        "power_tools": {
+          "tnt": 0,
+          "propeller": 4,
+          "rocket": 4,
+          "light_ball": 0
+        },
+        "unused_moves": 7,
+        "hint_usage": 1,
+        "special_events": {
+          "butler_gift": {
+            "active": true,
+            "progress": "1/3",
+            "power_ups_given": 2
+          }
+        }
+      },
+      {
+        "level": 33,
+        "obstacles": {
+          "grass": 32,
+          "egg": 32
+        },
+        "move_count": 30,
+        "power_tools": {
+          "tnt": 4,
+          "propeller": 7,
+          "rocket": 3,
+          "light_ball": 0
+        },
+        "unused_moves": 40,
+        "hint_usage": 0,
+        "additional_moves_bought": 5,
+        "special_events": {
+          "butler_gift": {
+            "active": true,
+            "progress": "2/3",
+            "power_ups_given": 3
+          },
+          "additional_moves_cost": 900
+        }
+      },
+      {
+        "level": 34,
+        "obstacles": {
+          "egg": 54,
+          "mail": 50
+        },
+        "move_count": 20,
+        "power_tools": {
+          "tnt": 2,
+          "propeller": 4,
+          "rocket": 4,
+          "light_ball": 1
+        },
+        "unused_moves": 0,
+        "hint_usage": 0,
+        "special_events": {
+          "butler_gift": {
+            "active": true,
+            "progress": "3/3",
+            "power_ups_given": 3
+          }
+        }
+      },
+      {
+        "level": 35,
+        "obstacles": {
+          "plate": 30,
+          "egg": 30
+        },
+        "move_count": 20,
+        "power_tools": {
+          "tnt": 2,
+          "propeller": 3,
+          "rocket": 8,
+          "light_ball": 2
+        },
+        "unused_moves": 8,
+        "hint_usage": 0,
+        "special_events": {
+          "butler_gift": {
+            "active": true,
+            "progress": "3/3",
+            "power_ups_given": 3
+          }
+        }
+      },
+      {
+        "level": 36,
+        "obstacles": {
+          "box": 38,
+          "mail": 50
+        },
+        "move_count": 25,
+        "power_tools": {
+          "tnt": 1,
+          "propeller": 6,
+          "rocket": 4,
+          "light_ball": 2
+        },
+        "unused_moves": 3,
+        "hint_usage": 0,
+        "special_events": {
+          "butler_gift": {
+            "active": true,
+            "progress": "3/3",
+            "power_ups_given": 3
+          }
+        }
+      },
+      {
+        "level": 37,
+        "obstacles": {
+          "box": 32,
+          "grass": 16,
+          "plate": 40
+        },
+        "move_count": 23,
+        "power_tools": {
+          "tnt": 4,
+          "propeller": 3,
+          "rocket": 2,
+          "light_ball": 1
+        },
+        "unused_moves": 4,
+        "hint_usage": 0,
+        "special_events": {
+          "butler_gift": {
+            "active": true,
+            "progress": "3/3",
+            "power_ups_given": 3
+          }
+        }
+      },
+      {
+        "level": 38,
+        "obstacles": {
+          "grass": 24,
+          "plate": 40,
+          "egg": 32
+        },
+        "move_count": 24,
+        "power_tools": {
+          "tnt": 1,
+          "propeller": 8,
+          "rocket": 4,
+          "light_ball": 2
+        },
+        "unused_moves": 9,
+        "hint_usage": 0,
+        "special_events": {
+          "butler_gift": {
+            "active": true,
+            "progress": "3/3",
+            "power_ups_given": 3
+          }
+        }
+      },
+      {
+        "level": 39,
+        "obstacles": {
+          "box": 9,
+          "egg": 63,
+          "mail": 30
+        },
+        "move_count": 28,
+        "power_tools": {
+          "tnt": 4,
+          "propeller": 3,
+          "rocket": 4,
+          "light_ball": 3
+        },
+        "unused_moves": 3,
+        "hint_usage": 0,
+        "additional_moves_bought": 5,
+        "special_events": {
+          "butler_gift": {
+            "active": true,
+            "progress": "3/3",
+            "power_ups_given": 3
+          },
+          "magic_cauldron_unlocked": true,
+          "additional_moves_cost": 900
+        }
+      },
+      {
+        "level": 40,
+        "move_count": 20,
+        "power_tools": {
+          "tnt": 3,
+          "propeller": 2,
+          "rocket": 4,
+          "light_ball": 4
+        },
+        "unused_moves": 0,
+        "hint_usage": 0,
+        "special_events": {
+          "butler_gift": {
+            "active": true,
+            "progress": "3/3",
+            "power_ups_given": 3
+          },
+          "bonus_level": "COIN_RAIN"
+        }
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
