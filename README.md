@@ -103,7 +103,7 @@ The visualization system transforms the JSON game data into insightful visualiza
 
 1. Navigate to the `game-analysis` directory:
    ```bash
-   cd /Users/ilkeryoru/Desktop/PERSONAL\ REPOS/dream-case/game-analysis/
+   cd dream-case/game-analysis/
    ```
 
 2. Create a virtual environment and install dependencies:
@@ -122,7 +122,7 @@ The visualization system transforms the JSON game data into insightful visualiza
 
 1. Navigate to the visual analysis directory:
    ```bash
-   cd /Users/ilkeryoru/Desktop/PERSONAL\ REPOS/dream-case/general-analyze/visual-analysis/
+   cd dream-case/general-analyze/visual-analysis/
    ```
 
 2. Run the JSON-based visualization script:
